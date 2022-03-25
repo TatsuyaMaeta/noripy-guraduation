@@ -5,6 +5,9 @@ import SortIcon from "@material-ui/icons/Sort";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Link as Scroll } from "react-scroll";
 
+// importするときはtypescriptのファイルを指定するのではなくjsのファイルで指定すること！
+import MediaQuery from "react-responsive/dist/react-responsive";
+
 const useStyles = makeStyles((theme) => ({
     root: {
         display: "flex",
@@ -37,11 +40,17 @@ const useStyles = makeStyles((theme) => ({
         color: "#fff",
         fontSize: "4.5rem",
     },
+    minTitle: {
+        color: "#fff",
+        fontSize: "2rem",
+    },
     goDown: {
         color: "#DC143C",
-        fontSize: "4rem",
-    },
+        fontSize: "9rem",
+    }
+    
 }));
+
 export default function Header() {
     const classes = useStyles();
     const [checked, setChecked] = useState(false);
@@ -67,18 +76,36 @@ export default function Header() {
                 {...(checked ? { timeout: 1000 } : {})}
                 collapsedSize={50}
             >
-                <div className={classes.container}>
-                    <h1 className={classes.title}>
-                        Congratulations <br />
-                        on your graduation. <br />
-                        <span className={classes.colorText}>のりぴー</span>
-                    </h1>
-                    <Scroll to="place-to-visit" smooth={true}>
-                        <IconButton>
-                            <ExpandMoreIcon className={classes.goDown} />
-                        </IconButton>
-                    </Scroll>
-                </div>
+                <MediaQuery query="(min-width: 667px)">
+                    <div className={classes.container}>
+                        <h1 className={classes.title}>
+                            Congratulations <br />
+                            on your graduation. <br />
+                            <span className={classes.colorText}>のりぴー</span>
+                        </h1>
+                        <Scroll to="place-to-visit" smooth={true}>
+                            <IconButton>
+                                <ExpandMoreIcon className={classes.goDown} />
+                            </IconButton>
+                        </Scroll>
+                    </div>
+                </MediaQuery>
+                <MediaQuery query="(max-width: 667px)">
+                    <div className={classes.container}>
+                        <h1 className={classes.minTitle}>
+                            Congratulations <br />
+                            on your graduation. <br />
+                            <span className={classes.colorText}>
+                                のりぴー
+                            </span>{" "}
+                        </h1>
+                        <Scroll to="place-to-visit" smooth={true}>
+                            <IconButton>
+                                <ExpandMoreIcon className={classes.goDown} />
+                            </IconButton>
+                        </Scroll>
+                    </div>
+                </MediaQuery>
             </Collapse>
         </div>
     );
