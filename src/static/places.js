@@ -58,7 +58,7 @@ const places = [
             色んな人を巻き込んでハッピーにしたり、誰かを癒したり。いいものを素直にいいと言えるところも、本当に素敵だと思う。
             どうかのりぴーの良さをそのままに、そして幸せで美しい女性になってください。
             またジーズでいつでも待ってます、大好き！`,
-        imageUrl: process.env.PUBLIC_URL + "/assets/fujii.png",
+        imageUrl: process.env.PUBLIC_URL + "/assets/fujii.jpg",
         time: 1500,
     },
     {

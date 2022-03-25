@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "865b334c4784c1c6d8cff6e64597a7da",
+    "revision": "39b68be5ef0dd620de00fadf89f373e2",
     "url": "/noripy-guraduation/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/noripy-guraduation/static/js/2.e9a44816.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35d17b11cf6cd94ce7b4",
-    "url": "/noripy-guraduation/static/js/main.9cac3d42.chunk.js"
+    "revision": "1485a8ffbdae8c9be948",
+    "url": "/noripy-guraduation/static/js/main.e20be7d1.chunk.js"
   },
   {
     "revision": "7117e3f2ebdfa1601f31",
