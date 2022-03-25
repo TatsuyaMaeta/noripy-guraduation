@@ -68,7 +68,7 @@ const places = [
             本当につよつよインターンでした！お疲れ様でした！そしてデジハリ入社おめでとう！これからもよろしくお願いします(^^)/
             Ps）恋に焦がれるのりぴーに贈りたいヘレンケラーの言葉(笑)
             "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart."`,
-        imageUrl: process.env.PUBLIC_URL + "/assets/uehara.JPG",
+        imageUrl: process.env.PUBLIC_URL + "/assets/uehara.png",
         time: 1500,
     },
     {
