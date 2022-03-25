@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/noripy-guraduation/precache-manifest.bc6f5de04dd8db3b7a31f7e25e67e2e2.js"
+  "/noripy-guraduation/precache-manifest.0bd491e5b4d695a17e8efe2cda1adc8c.js"
 );
 
 self.addEventListener('message', (event) => {

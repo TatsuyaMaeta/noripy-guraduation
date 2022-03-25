@@ -68,13 +68,12 @@ const places = [
             本当につよつよインターンでした！お疲れ様でした！そしてデジハリ入社おめでとう！これからもよろしくお願いします(^^)/
             Ps）恋に焦がれるのりぴーに贈りたいヘレンケラーの言葉(笑)
             "The best and most beautiful things in the world cannot be seen or even touched. They must be felt with the heart."`,
-        imageUrl: process.env.PUBLIC_URL + "/assets/uehara.png",
+        imageUrl: process.env.PUBLIC_URL + "/assets/uehara.JPG",
         time: 1500,
     },
     {
         title: "さちおかさん",
-        description:
-            `のりぴー！大学卒業＆入社おめでとう！！
+        description: `のりぴー！大学卒業＆入社おめでとう！！
             最初は女子大生Powerすごいなーーって思ってたけど、ただの若さじゃなくて心の底からハッピーを人に振りまくことができる人だなーと尊敬したことを思い出します。
             行動までが迅速で、かつ素直。これは才能でありのりぴーの積み上げてきたものだと思います！素敵で私のお手本です。
             統一試験なんて本当にゼロ１で作り上げたのりピーの発明・プロダクトだと思う！すごい！
@@ -104,7 +103,18 @@ const places = [
             CSで困ったらこっそりのりぴーに連絡しようかな?笑
             これからののりぴーの目覚ましい活躍を楽しみにしてるね！！
             またフラッとジーズに遊びにきてね！改めて、おめでとう！！`,
-        imageUrl: process.env.PUBLIC_URL + "/assets/maeta.png",
+        imageUrl: process.env.PUBLIC_URL + "/assets/maeta.JPG",
+        time: 1500,
+    },
+    {
+        title: "TDさん",
+        description: 
+            `のりぴー1年半お疲れさまでした。
+            のりぴーの陽気な性格から、私はいつも楽しい雰囲気を感じていました。
+            その明るい笑顔が必ずよい出会いを運んでくれると信じています。
+            新天地でものりぴーらしく活躍（色んな意味で）してください。
+            また会える日を楽しみにしています。`,
+        imageUrl: process.env.PUBLIC_URL + "/assets/TD.png",
         time: 1500,
     },
     {
@@ -112,7 +122,7 @@ const places = [
         description: ` ご卒業おめでとうございます。
             今後何かあったら
             すぐ〜俺に言え〜`,
-        imageUrl: process.env.PUBLIC_URL + "/assets/ranko.png",
+        imageUrl: process.env.PUBLIC_URL + "/assets/fukushima.png",
         time: 1500,
     },
 ];

@@ -65,9 +65,9 @@ export default function Header() {
                         G's ACADEMY
                         {/* My<span className={classes.colorText}>Island.</span> */}
                     </h1>
-                    <IconButton>
+                    {/* <IconButton>
                         <SortIcon className={classes.icon} />
-                    </IconButton>
+                    </IconButton> */}
                 </Toolbar>
             </AppBar>
 

@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import PlaceToVisit from "./components/PlaceToVisit";
 import PlaceToVisit2 from "./components/PlaceToVisit2";
 import PlaceToVisit3 from "./components/PlaceToVisit3";
+import PlaceToVisit4 from "./components/PlaceToVisit4";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -23,7 +24,7 @@ export default function App() {
             <PlaceToVisit />
             <PlaceToVisit2 />
             <PlaceToVisit3 />
-            {/* <PlaceToVisit3 /> */}
+            <PlaceToVisit4 />
         </div>
     );
 }
