@@ -6,6 +6,10 @@ import PlaceToVisit from "./components/PlaceToVisit";
 import PlaceToVisit2 from "./components/PlaceToVisit2";
 import PlaceToVisit3 from "./components/PlaceToVisit3";
 import PlaceToVisit4 from "./components/PlaceToVisit4";
+import PlaceToVisit5 from "./components/PlaceToVisit5";
+import PlaceToVisit6 from "./components/PlaceToVisit6";
+import PlaceToVisit7 from "./components/PlaceToVisit7";
+import PlaceToVisit8 from "./components/PlaceToVisit8";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -25,6 +29,10 @@ export default function App() {
             <PlaceToVisit2 />
             <PlaceToVisit3 />
             <PlaceToVisit4 />
+            <PlaceToVisit5 />
+            <PlaceToVisit6 />
+            <PlaceToVisit7 />
+            <PlaceToVisit8 />
         </div>
     );
 }
