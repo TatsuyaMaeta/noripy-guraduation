@@ -117,8 +117,7 @@ CSで困ったらこっそりのりぴーに連絡しようかな?笑
     },
     {
         title: "福島さん",
-        description: ` ご卒業おめでとうございます。
-今後何かあったらすぐ〜俺に言え〜`,
+        description: ` ご卒業おめでとうございます。今後何かあったらすぐ〜、俺に言え〜`,
         imageUrl: process.env.PUBLIC_URL + "/assets/fukushima.png",
         time: 1500,
     },
@@ -133,8 +132,7 @@ CSで困ったらこっそりのりぴーに連絡しようかな?笑
     {
         title: "LAB12やまてつさん",
         description: ` 卒業おめでとうございます。 
-いつもオールナイトではお世話になりました。 
-新社会人ががんばってね。  
+いつもオールナイトではお世話になりました。新社会人ががんばってね。  
 PS 配属先がジーズになるといいね。`,
         imageUrl: process.env.PUBLIC_URL + "/assets/yamamoto.jpg",
         time: 1500,
@@ -169,8 +167,7 @@ by 東京DEV22_大木千卓`,
     {
         title: "DEV22 金さん",
         description: `のりピーさん、G's卒業おめでとうございます！
-DEV22期期間中ありがとうございました！
-卒業後もデジハリで頑張ってください！`,
+DEV22期期間中ありがとうございました！z卒業後もデジハリで頑張ってください！`,
         imageUrl: process.env.PUBLIC_URL + "/assets/kim.jpg",
         time: 1500,
     },
