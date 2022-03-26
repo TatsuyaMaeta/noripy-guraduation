@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/noripy-guraduation/static/js/main.ba75b9f9.chunk.js",
-    "main.js.map": "/noripy-guraduation/static/js/main.ba75b9f9.chunk.js.map",
+    "main.js": "/noripy-guraduation/static/js/main.364f1ba3.chunk.js",
+    "main.js.map": "/noripy-guraduation/static/js/main.364f1ba3.chunk.js.map",
     "runtime-main.js": "/noripy-guraduation/static/js/runtime-main.dffdaeac.js",
     "runtime-main.js.map": "/noripy-guraduation/static/js/runtime-main.dffdaeac.js.map",
-    "static/js/2.ecff49e6.chunk.js": "/noripy-guraduation/static/js/2.ecff49e6.chunk.js",
-    "static/js/2.ecff49e6.chunk.js.map": "/noripy-guraduation/static/js/2.ecff49e6.chunk.js.map",
+    "static/js/2.6344cced.chunk.js": "/noripy-guraduation/static/js/2.6344cced.chunk.js",
+    "static/js/2.6344cced.chunk.js.map": "/noripy-guraduation/static/js/2.6344cced.chunk.js.map",
     "index.html": "/noripy-guraduation/index.html",
-    "precache-manifest.1c7c3afe063cdd4252ab588137802afe.js": "/noripy-guraduation/precache-manifest.1c7c3afe063cdd4252ab588137802afe.js",
+    "precache-manifest.42fe3f7298346a1013c04b5ec472b582.js": "/noripy-guraduation/precache-manifest.42fe3f7298346a1013c04b5ec472b582.js",
     "service-worker.js": "/noripy-guraduation/service-worker.js",
-    "static/js/2.ecff49e6.chunk.js.LICENSE.txt": "/noripy-guraduation/static/js/2.ecff49e6.chunk.js.LICENSE.txt"
+    "static/js/2.6344cced.chunk.js.LICENSE.txt": "/noripy-guraduation/static/js/2.6344cced.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dffdaeac.js",
-    "static/js/2.ecff49e6.chunk.js",
-    "static/js/main.ba75b9f9.chunk.js"
+    "static/js/2.6344cced.chunk.js",
+    "static/js/main.364f1ba3.chunk.js"
   ]
 }

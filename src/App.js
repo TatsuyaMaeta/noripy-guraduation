@@ -18,11 +18,14 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
     },
+    text: {
+        whiteSpace: "pre-wrap"
+    }
 }));
 export default function App() {
     const classes = useStyles();
     return (
-        <div className={classes.root}>
+        <div className={classes.root} text>
             <CssBaseline />
             <Header />
             <PlaceToVisit />

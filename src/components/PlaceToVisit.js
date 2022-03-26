@@ -4,15 +4,16 @@ import ImageCard from './ImageCard';
 import places from '../static/places';
 import useWindowPosition from '../hook/useWindowPosition';
 const useStyles = makeStyles((theme) => ({
-  root: {
-    minHeight: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    [theme.breakpoints.down('md')]: {
-      flexDirection: 'column',
+    root: {
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        [theme.breakpoints.down("md")]: {
+            flexDirection: "column",
+        },
+        whiteSpace: "pre-wrap",
     },
-  },
 }));
 export default function () {
   const classes = useStyles();

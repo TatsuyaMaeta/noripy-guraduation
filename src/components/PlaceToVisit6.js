@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down("md")]: {
             flexDirection: "column",
         },
+        whiteSpace: "pre-wrap",
     },
 }));
 export default function () {
